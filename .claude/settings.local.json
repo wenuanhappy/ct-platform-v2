@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn clean *)",
+      "Bash(timeout 20 java -jar target/ct-platform-backend-1.0.0.jar)",
+      "Bash(timeout 35 java -jar target/ct-platform-backend-1.0.0.jar)",
+      "Bash(mysql *)",
+      "Bash(cd /d \"E:\\\\仿真项目实现-交互式计算思维学习平台\")",
+      "Bash(java -version)",
+      "Bash(npm -v)",
+      "Bash(cmd.exe *)",
+      "Bash(C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql.exe *)",
+      "Bash(\"C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql.exe\" -u root -proot -e \"SELECT 1\")",
+      "Bash(\"C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql.exe\" -u root -p123456 -e \"SELECT 1\")",
+      "Bash(\"C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql.exe\" -u root -ppassword -e \"SELECT 1\")",
+      "Bash(\"C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql.exe\" -u root -p\"Redrise0513#\" -e \"SELECT 1\")",
+      "Bash(netstat -ano)",
+      "Read(//c/Users/fdcs/.workbuddy//**)",
+      "Read(//c/Users/fdcs/.workbuddy/binaries//**)",
+      "Bash($JAVA_HOME/bin/java *)",
+      "Bash(cd /d \"E:/仿真项目实现-交互式计算思维学习平台/backend\")",
+      "Bash(\"/c/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/java\" -jar target/ct-platform-backend-1.0.0.jar)",
+      "Bash(/c/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/java *)",
+      "Bash(curl *)",
+      "Bash(cd /d \"E:/仿真项目实现-交互式计算思维学习平台/frontend\")",
+      "Bash(npm run *)",
+      "Read(//usr/local/**)",
+      "Read(//c/Users/fdcs/AppData/Local/Microsoft/WinGet/Packages//**)",
+      "Bash(/c/Users/fdcs/AppData/Local/Microsoft/WinGet/Packages/Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe/ngrok.exe version *)",
+      "Bash(/c/Users/fdcs/AppData/Local/Microsoft/WinGet/Packages/Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe/ngrok.exe http *)",
+      "Bash(/c/Users/fdcs/AppData/Local/Microsoft/WinGet/Packages/Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe/ngrok.exe config *)",
+      "Bash(python -m json.tool)",
+      "Bash(\"/c/Users/fdcs/AppData/Local/Microsoft/WinGet/Packages/Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe/ngrok.exe\" api *)"
+    ]
+  }
+}
